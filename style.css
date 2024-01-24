@@ -1,0 +1,73 @@
+
+body {
+  padding-top: 3.5rem;
+  font-size: 16px;
+  margin-left: 150px;
+  margin-right: 100px;
+  font-family: "Arial", sans-serif;
+  /* background-color: #75736d; */
+}
+
+a {
+  text-decoration: none;
+  color: #b99035;
+}
+
+.navbar {
+  background-color: #44423d;
+  overflow: hidden;
+  border-bottom: 2px solid #b99035;
+}
+
+.nav-item {
+  color: #b99035;
+}
+
+.nav-link {
+  color: #b99035;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #55ACEE;
+  color: white;
+}
+
+.project-box {
+  padding-top: 1.0em;
+}
+
+.project-img {
+  
+}
+
+.project-title {
+  
+}
+
+.project-author {
+  
+}

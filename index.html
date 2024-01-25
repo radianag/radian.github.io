@@ -52,12 +52,16 @@
                 <!-- <h1>Radian Gondokaryono</h1> -->
                 <p>
                     <br>
-                    I am third year PhD Student in the Department of Computer Science at the University of Toronto
-                    advised by <a href="https://www.cs.toronto.edu/~lakahrs/" target="_blank">Prof. Lueder A. Kahrs</a>.
-                    I am a part of the <a href="https://medcvr.utm.utoronto.ca/" target="_blank">MedCVR Lab</a> and
-                    <a href="https://www.cigiti.ca/" target="_blank">CIGITI Lab</a>, where I research
-                    autonomous robotics, physics-based simulations, and computer vision for surgery.
+                    Hi! I am a Computer Science PhD. student at the University of Toronto
+                    advised by <a href="https://www.cs.toronto.edu/~lakahrs/" target="_blank">Lueder A. Kahrs</a>.
+                    I am currently a member of the <a href="https://medcvr.utm.utoronto.ca/" target="_blank">MedCVR Lab</a> and
+                    <a href="https://www.cigiti.ca/" target="_blank">PCIGITI Lab</a> where I research on computer vision,
+                    3D scene understanding, and autonomous robotics.
+                    <br><br>
+                    Previously, I worked on pick and place robotics for logistics applications where I developed (and sometimes researched)
+                    motion planning and perception software.
                     <br>
+
                     <!-- <a href="https://docs.google.com/document/d/17w7SnhS3dZE8pipJdxz6JTVyGdJ_ojwuHpGLADP6kkA/edit?usp=sharing" target="_blank">Radian Gondokaryono CV</a> -->
                 </p>
             </div>
@@ -75,7 +79,7 @@
         <!-- RA-L Roll BLock -->
         <div class="row">
             <div class="col-md-3">
-                <img class="img-fluid" src="images/projects/ral_rollblock.gif" alt="">
+                <img class="img-fluid" src="images/projects/long_slide.gif" alt="">
             </div>
             <div class="col-md-8">
                 <b> Learning Nonprehensile Dynamic Manipulation: Sim2real Vision-based Policy with a Surgical Robot</b><br>
@@ -83,6 +87,21 @@
                 IEEE Robotics and Automation Letters, 2023<br>
                 <a href="https://ieeexplore.ieee.org/document/10239321" target="_blank">Paper</a> /
                 <a href="https://medcvr.utm.utoronto.ca/ral2023-rollblock.html" target="_blank">Website</a>
+            </div>
+        </div>
+        <br>
+
+        <!-- dVRK Cutting  -->
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/projects/experimental_cutting.png" alt="">
+            </div>
+            <div class="col-md-9">
+                <b>Experimental Trials with a Shared Autonomy Controller Framework and the da Vinci Research Kit:
+                    Pattern Cutting Tasks using Thin Elastic Materials</b><br>
+                Paramjit Singh Baweja, <u>Radian Gondokaryono</u>, Lueder A. Kahrs<br>
+                International Symposium on Medical Robotics, 2023<br>
+                <a href="https://ieeexplore.ieee.org/document/10130201" target="_blank">Paper</a>
             </div>
         </div>
         <br>
@@ -101,14 +120,37 @@
             </div>
         </div>
         <br>
+
+
+        <!-- dVRK Teleop -->
         <div class="row">
             <div class="col-md-3">
+                <img class="img-fluid" src="images/projects/hamlyn_controller.png" alt="">
+            </div>
+            <div class="col-md-9">
+                <b>A Modular ROS-based dVRK Teleoperation Controller Architecture</b><br>
+                <u>Radian Gondokaryono</u>, Mustafa Haiderbhai, Adnan Munawar, Thomas Looi, James Drake, Lueder A. Kahrs<br>
+                Hamlyn Symposium on Medical Robotics, 2022<br>
+                <a href="https://www.hamlynsymposium.org/wp-content/uploads/2022/08/HSMR22-Proceedings-FINAL.pdf" target="_blank">Paper</a> /
+                <a href="https://www.youtube.com/watch?v=bl-jN5ERt8s" target="_blank">Video</a>
+            </div>
+        </div>
+        <br>
+
+        <!-- Dorabot Pick and Place-->
+        <div class="row">
+            <div class="col-md-3">
+                <!-- <iframe
+                src="https://www.youtube.com/watch?v=7uV7klACpPE&t=20s&ab_channel=DorabotInc.">
+                </iframe> -->
                 <img class="img-fluid" src="images/projects/todo.png" alt="">
             </div>
             <div class="col-md-8">
                 <b> Pick and Place Logistic Robotics</b> <br>
-                I did something here <br>
-                <a href="https://medcvr.utm.utoronto.ca/ral2023-rollblock.html" target="_blank">Video</a>
+                Made cool Sort-to-tote and induction robot applications.
+                Architected, created, and maintained motion planning and motion control libraries.<br>
+                <a href="https://www.youtube.com/watch?v=7uV7klACpPE&t=20s&ab_channel=DorabotInc." target="_blank">Video</a> /
+                <a href="https://www.dorabot.com/solutions" target="_blank">Website</a>
             </div>
         </div>
         <br>
@@ -118,7 +160,37 @@
             </div>
             <div class="col-md-8">
                 <b> Time Optimal Trajectory Optimization with Cartesian Acceleration and Joint Torque Constraints</b><br>
-                I did something here <br>
+                Reimplemented <a href="https://github.com/hungpham2511/toppra" target="_blank">TOPP-RA</a>  in C++
+                (back then it was only in python)
+                and integrated to a real-time motion planning pipeline. Included Cartesian acceleration constraints
+                as well as joint torque constraints calculated with a lumped inverse dynamics function obtained from dynamic identification
+                of Yaskawa industrial robots.<br>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/projects/workflow.png" alt="">
+            </div>
+            <div class="col-md-8">
+                <b>A Convex Optimization-Based Dynamic Model Identification Package for the da Vinci Research Kit</b><br>
+                Yan Wang, <u>Radian Gondokaryono</u>, Adnan Munawar, Gregory Scott Fischer<br>
+                IEEE Robotics and Automation Letters, 2019<br>
+                <a href="https://ieeexplore.ieee.org/document/8758871" target="_blank">Paper</a> /
+                <a href="https://github.com/WPI-AIM/dvrk_dynamics_identification" target="_blank">Github</a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/projects/neurorobot.png" alt="">
+            </div>
+            <div class="col-md-8">
+                <b>Mechanical Validation of an MRI Compatible Stereotactic Neurosurgery Robot in Preparation for Pre-Clinical Trials</b><br>
+                Christopher J. Nycz, <u>Radian Gondokaryono</u>, Paulo Carvalho, Nirav Patel, 
+                Marek Wartenberg, Julie G. Pilitsis, Gregory Scott Fischer<br>
+                IEEE International Conference on Intelligent Robots and Systems, 2017<br>
+                <a href="https://ieeexplore.ieee.org/document/8205979" target="_blank">Paper</a>
             </div>
         </div>
         <br>

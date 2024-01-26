@@ -2,11 +2,16 @@
 body {
   padding-top: 3.5rem;
   font-size: 16px;
-  margin-left: 150px;
-  margin-right: 100px;
   font-family: "Arial", sans-serif;
   /* background-color: #75736d; */
 }
+
+@media (min-width:1300px) {
+    body {
+        margin-left: 150px;
+        margin-right: 100px;
+    }
+ }
 
 a {
   text-decoration: none;
@@ -17,6 +22,10 @@ a {
   background-color: #44423d;
   overflow: hidden;
   border-bottom: 2px solid #b99035;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28185, 144, 53, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .nav-item {
